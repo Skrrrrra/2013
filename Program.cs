@@ -52,7 +52,7 @@ namespace LikeMinNumber
             }
 
 
-
+            //вычисление минимального элемента массива и переназначение
             int min = lastintarr[0];
             for (int i = 0; i < lastintarr.Length; i++)
             {
@@ -66,6 +66,7 @@ namespace LikeMinNumber
 
                 }
             }
+            //обьявление счетчика прогонка по массиву для поиска совпадений
             int score = 0;
             for (int i = 0; i < a; i++)
             {
